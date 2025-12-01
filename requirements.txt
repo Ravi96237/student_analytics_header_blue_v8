@@ -1,0 +1,9 @@
+streamlit
+ibm-watsonx-ai
+python-dotenv
+faiss-cpu
+pypdf
+pandas
+numpy
+requests
+reportlab
