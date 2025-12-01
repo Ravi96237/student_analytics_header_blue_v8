@@ -404,9 +404,9 @@ def ensure_student_info() -> bool:
 # --------------------------
 st.sidebar.header("⚙️ IBM watsonx.ai Settings")
 
-default_api_key = os.getenv("WATSONX_APIKEY", "")
+default_api_key = os.getenv("WATSONX_APIKEY", "JitxTani_aa29CEKZf746GdXRrAtVPUfKLBc-lHLcbSn")
 default_url = os.getenv("WATSONX_URL", "https://us-south.ml.cloud.ibm.com")
-default_project_id = os.getenv("WATSONX_PROJECT_ID", "")
+default_project_id = os.getenv("WATSONX_PROJECT_ID", "d2f28f8a-ed20-4524-95fc-b077bbe9ff24")
 default_model_id = os.getenv("GRANITE_MODEL_ID", "ibm/granite-3-8b-instruct")
 
 watsonx_api_key = st.sidebar.text_input(
